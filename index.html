@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="js/apps/star.css">
+</head>
+<body>
+	<div id="sp"></div>
+	<input type="text" value='hi' hidden />
+
+	
+	<script src="js/plugins/jquery.min.js"></script>
+	<script src="js/apps/star.js"></script>
+	<script>
+		
+		$('input').evaluation({
+			count:5,
+			tips:"不重要不紧急,重要不紧急,不重要紧急,重要紧急,非常紧急",
+			defalut:3,
+			container:$('#sp')
+		})
+
+	</script>
+</body>
+</html>

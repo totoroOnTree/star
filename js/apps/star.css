@@ -1,0 +1,21 @@
+/* 优先级星星 */
+.ifly-star-grade{
+    font-size:0;
+    display:inline-block;
+    overflow:hidden;
+    vertical-align:-2px;
+}
+.ifly-star-grade>span{
+    margin:0 3px 0 0;
+    width:15px;
+    height:15px;
+    line-height:50px;
+    background:url(img/ifly-star-grade.png) no-repeat -18px 0;
+    display:inline-block;
+    overflow:hidden;
+    font-size:12px;
+    cursor:pointer;
+}
+.ifly-star-grade>span.ifly-on{
+    background-position:0 0;
+}
